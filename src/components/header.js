@@ -3,14 +3,13 @@ import { Link } from "react-router-dom";
 import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";
 import "./Header.css"; 
-
 export default function Header() {
   return (
     <>
       <header
         style={{
           fontFamily: "Lora",
-          backgroundColor: "#102C57",
+          backgroundColor: "#1E201E",
           color: "#BEC6A0",
         }}
       >
@@ -72,6 +71,9 @@ export default function Header() {
             </a>
             <a href="https://www.linkedin.com/in/charmi-gabani-180318299/">
             <img src={linkedin} alt="LinkedIn Icon" className="social-icon" />
+            </a>
+            <a href="https://github.com/charmigabani05">
+            <i className=" fa-brands fa-github"/>
             </a>
           </div>
         </nav>

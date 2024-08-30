@@ -1,5 +1,6 @@
 import React from "react";
 import tatva from '../assets/tatva.png';
+import portfolio from '../assets/portfolio.png';
 
 export default function Portfolio () {
     return (
@@ -17,6 +18,10 @@ export default function Portfolio () {
                 <img src={tatva} style={{height:'225px'}} class="rounded mx-auto d-block"/>
                 </div>
                 </div>
+                </div>
+                <div className="col-6">
+                <br/><br/>
+                <img src={portfolio} style={{height:'225px'}} class="rounded mx-auto d-block"/>
                 </div>
                 </div>
                 </div>

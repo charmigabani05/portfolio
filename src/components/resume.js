@@ -3,7 +3,7 @@ import html from '../assets/html.png';
 import css from '../assets/css.png';
 import javascript from '../assets/javascript .png'
 import reactjs from '../assets/reactjs.png';
-import bootstrap from '../assets/bootstrap.png';
+import bootstrap from '../assets/Bootstrap_logo.png.svg';
 
 export default function Resume() {
     return (
@@ -83,7 +83,7 @@ export default function Resume() {
                             </div>
                             <div className="col-12 col-md-4 col-lg-2 text-center">
                                 <div className="widget">
-                                    <img src={bootstrap} alt="Bootstrap Icon" /><br /><br />
+                                    <img src={bootstrap} alt="Bootstrap Icon" style={{height:'64px'}} /><br /><br />
                                     <h5>Bootstrap</h5>
                                 </div>
                             </div>
