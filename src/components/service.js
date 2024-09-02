@@ -34,9 +34,9 @@ export default function Service() {
           {ServiceData.map((service, index) => (
             <div className="col-md-6" key={index} style={{ marginBottom: '20px' }}>
               <div className="card" style={{ width: '100%', backgroundColor: '#BEC6A0' }}>
-                <div className="card-body" style={{ color: '#102C57' }}>
-                  <h1 className="card-title" style={{ color: '#102C57' }}>{service.title}</h1>
-                  <p className="card-text" style={{ color: '#102C57' }}>{service.description}</p>
+                <div className="card-body" style={{ color: 'black' }}>
+                  <h1 className="card-title" style={{ color: 'black' }}>{service.title}</h1>
+                  <p className="card-text" style={{ color: 'black' }}>{service.description}</p>
                 </div>
               </div>
             </div>

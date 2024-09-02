@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";
+import github from '../assets/github.png';
 import "./Header.css"; 
 export default function Header() {
   return (
@@ -73,7 +74,7 @@ export default function Header() {
             <img src={linkedin} alt="LinkedIn Icon" className="social-icon" />
             </a>
             <a href="https://github.com/charmigabani05">
-            <i className=" fa-brands fa-github"/>
+            <img src={github} alt="Github icon" className="social-icon" />
             </a>
           </div>
         </nav>
