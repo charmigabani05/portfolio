@@ -3,7 +3,7 @@ import image1 from '../assets/image1.png';
 
 export default function About () {
     return(
-        <>
+        <div id="about">
         <div className="container" style={{fontFamily:'lora'}}>
         <br/>
         <center><h1>About Me</h1>
@@ -43,7 +43,7 @@ export default function About () {
             </div>
             </div>
             </div>
-            </>
+            </div>
     )
     
 }
