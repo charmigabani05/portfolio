@@ -20,6 +20,7 @@ export default function Home () {
         <h1 style={{fontSize:'50px', marginLeft:'65px'}}>I'm Charmi Gabani <br/>
             Front-end Developer</h1>
         <h5  style={{marginLeft: '65px'}}>builds the front-end portion of websites</h5>
+        <button type="button" class="btn btn-light" style={{marginLeft: '65px'}}>Download CV</button>
         </div>
         </div>
         </div>
