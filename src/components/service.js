@@ -30,7 +30,7 @@ export default function Service() {
             To listen closely and reply well is the highest perfection we are able to attain in the art of conversation.
           </h1>
           </center>
-        <div className="row" style={{textAlign:'center',marginRight:'90px'}}>
+        <div className="row" style={{textAlign:'center',marginLeftht:'140px'}}>
           {ServiceData.map((service, index) => (
             <div className="col-md-6" key={index} style={{ marginBottom: '20px' }}>
               <div className="card" style={{ width: '100%', backgroundColor: '#BEC6A0' }}>
