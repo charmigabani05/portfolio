@@ -40,8 +40,7 @@ export default function Service() {
                 </div>
               </div>
             </div>
-            
-          ))}
+            ))}
         </div>
       </div>
     </>
